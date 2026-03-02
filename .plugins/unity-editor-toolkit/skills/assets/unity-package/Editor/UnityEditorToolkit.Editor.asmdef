@@ -1,0 +1,20 @@
+{
+  "name": "UnityEditorToolkit.Editor",
+  "rootNamespace": "UnityEditorToolkit.Editor",
+  "references": [
+    "UnityEditorToolkit",
+    "UniTask",
+    "Gilzoide.SqliteNet"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

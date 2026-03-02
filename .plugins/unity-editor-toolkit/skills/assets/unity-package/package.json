@@ -1,0 +1,39 @@
+{
+  "name": "com.devgom.unity-editor-toolkit",
+  "version": "0.15.1",
+  "displayName": "Unity Editor Toolkit",
+  "description": "Real-time Unity Editor control and automation via WebSocket for Claude Code integration. Provides 500+ commands for GameObject, Transform, Scene, Component, Material, and more. Database features require Unity 6+ only (embedded SQLite, no installation required).",
+  "unity": "6.0",
+  "keywords": [
+    "editor",
+    "automation",
+    "websocket",
+    "rpc",
+    "gameobject",
+    "transform",
+    "scene",
+    "component",
+    "claude",
+    "ai"
+  ],
+  "author": {
+    "name": "Dev GOM",
+    "email": "dev@gom.example",
+    "url": "https://github.com/Dev-GOM/claude-code-marketplace"
+  },
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.2",
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git",
+    "com.gilzoide.sqlite-net": "https://github.com/gilzoide/unity-sqlite-net.git#1.3.2"
+  },
+  "testables": [
+    "com.unity.test-framework"
+  ],
+  "samples": [
+    {
+      "displayName": "Basic Examples",
+      "description": "Basic examples of Unity Editor Toolkit server setup",
+      "path": "Samples~/BasicExamples"
+    }
+  ]
+}
